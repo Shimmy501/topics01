@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20170404023045) do
     t.text     "description"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "count"
   end
 
   create_table "votes", force: :cascade do |t|

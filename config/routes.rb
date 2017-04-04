@@ -5,4 +5,5 @@ Rails.application.routes.draw do
      post 'upvote'
    end
  end
+get 'about', to:'topics#about'
 end

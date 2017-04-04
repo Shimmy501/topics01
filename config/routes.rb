@@ -4,6 +4,9 @@ Rails.application.routes.draw do
    member do
      post 'upvote'
    end
+   member do
+     post 'downvote'
+     end
  end
 get 'about', to:'topics#about'
 end
